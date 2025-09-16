@@ -4,8 +4,8 @@ title: "Linked List"
 type: Lab
 number: 03
 active_tab: lab
-release_date: 2025-02-04
-
+release_date: 2025-09-17
+due_date: 2025-10-03
 ---
 
 <!-- Check whether the assignment is ready to release -->

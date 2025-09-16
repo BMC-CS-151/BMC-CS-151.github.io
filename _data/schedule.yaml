@@ -59,15 +59,15 @@
     - 
       date: 2025-09-17
       title: Lecture 5 <br> FancyLinkedList
-      #readings:
+      #readings:Copy of 
       #  -
       #    title: "Chapter 3"
-      #slides: "slides/lecture05.pdf"
+      slides: "slides/lecture05.pdf"
       recording: ~
       assignments: 
         - 
           title: "Lab03 -  LinkedLists"
-          #url: "labs/Lab03.html"
+          url: "labs/Lab03.html"
           deadline: "2025-10-03"
         - 
           title: "HW02 -  LinkedLists"
