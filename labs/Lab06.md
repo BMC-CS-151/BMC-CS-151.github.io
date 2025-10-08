@@ -49,7 +49,7 @@ You can download the materials for this assignment here:
 
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
-Note, you will be submitting this lab to Gradescope. It will be due before spring break (March 7th).
+Note, you will be submitting this lab to Gradescope. It will be due at the end of Fall Break (Sunday October 19th).
 
 ## Objectives:
 
