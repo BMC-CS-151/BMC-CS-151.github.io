@@ -4,8 +4,8 @@ title: "ArrayLists & Iterators"
 type: Lab
 number: 06
 active_tab: lab
-release_date: 2025-02-26
-due_date: 2025-03-07 23:59:00EDT
+release_date: 2025-10-08
+due_date: 2025-10-19 23:59:00EDT
 ---
 
 <!-- Check whether the assignment is ready to release -->
