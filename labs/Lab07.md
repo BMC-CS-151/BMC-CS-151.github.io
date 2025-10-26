@@ -48,7 +48,7 @@ You can download the materials for this assignment here:
 
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
-You will be submitting this lab to Gradescope. 
+You will be submitting this lab to Gradescope as part of HW5.
 
 ## Objectives:
 
