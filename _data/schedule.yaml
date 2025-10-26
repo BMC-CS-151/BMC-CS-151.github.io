@@ -180,12 +180,12 @@
       assignments:
           -
             title: "Lab07 - Binary Trees"
-            #url: "labs/Lab07.html"
+            url: "labs/Lab07.html"
             deadline: 2025-11-07
           -
             title: "HW05 - Binary Trees"
             deadline: 2025-11-07
-            #url: "hws/HW05.html"
+            url: "hws/HW05.html"
     - 
       date: 2025-11-03
       title: Lecture 15 <br> Heaps 
