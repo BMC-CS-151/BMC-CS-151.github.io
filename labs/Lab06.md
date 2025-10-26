@@ -4,8 +4,8 @@ title: "ArrayLists & Iterators"
 type: Lab
 number: 06
 active_tab: lab
-release_date: 2025-02-26
-due_date: 2025-03-07 23:59:00EDT
+release_date: 2025-10-08
+due_date: 2025-10-19 23:59:00EDT
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -49,7 +49,7 @@ You can download the materials for this assignment here:
 
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
-Note, you will be submitting this lab to Gradescope. It will be due before spring break (March 7th).
+Note, you will be submitting this lab to Gradescope. It will be due at the end of Fall Break (Sunday October 19th).
 
 ## Objectives:
 
