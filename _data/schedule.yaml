@@ -201,7 +201,7 @@
       assignments: 
         - 
           title: "Lab08 - Array based Binary Trees & Heaps"
-          #url: "labs/Lab08.html"
+          url: "labs/Lab08.html"
           deadline: 2025-11-14
         - 
           title: "HW06 - Heaps"
