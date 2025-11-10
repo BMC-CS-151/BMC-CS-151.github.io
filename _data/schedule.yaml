@@ -206,7 +206,7 @@
         - 
           title: "HW06 - Heaps"
           deadline: 2025-11-14
-          #url: "hws/HW06.html"
+          url: "hws/HW06.html"
     - 
       date: 2025-11-10
       title: Lecture 17 <br> Priority Queues 
