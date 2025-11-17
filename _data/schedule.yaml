@@ -195,7 +195,7 @@
     - 
       date: 2025-11-05
       title: Lecture 16 <br> Heaps <br> Priority Queues
-      #slides: "slides/lecture16.pdf"
+      slides: "slides/lecture16.pdf"
       recording: ~
       readings: ~
       assignments: 
@@ -206,17 +206,17 @@
         - 
           title: "HW06 - Heaps"
           deadline: 2025-11-14
-          #url: "hws/HW06.html"
+          url: "hws/HW06.html"
     - 
       date: 2025-11-10
       title: Lecture 17 <br> Priority Queues 
-      #slides: "slides/lecture17.pdf"
+      slides: "slides/lecture17.pdf"
       recording: ~
       readings: ~
     - 
       date: 2025-11-12
       title: Lecture 18 <br> Maps <br> HashMaps
-      #slides: "slides/lecture18.pdf"
+      slides: "slides/lecture18.pdf"
       assignments: 
         - 
           #deadline: 2023-12-05
