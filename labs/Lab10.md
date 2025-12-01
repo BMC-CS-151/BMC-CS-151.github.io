@@ -4,7 +4,7 @@ title: "AVL Trees"
 type: Lab
 number: 10
 active_tab: lab
-release_date: 2024-04-15
+release_date: 2025-12-01
 ---
 
 <!-- Check whether the assignment is ready to release -->
