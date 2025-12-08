@@ -4,7 +4,7 @@ title: "Graphs"
 type: Lab
 number: 11
 active_tab: lab
-release_date: 2024-12-11
+release_date: 2025-12-08
 ---
 
 <!-- Check whether the assignment is ready to release -->
