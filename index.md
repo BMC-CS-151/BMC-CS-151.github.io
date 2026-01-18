@@ -59,10 +59,10 @@ Website
 : [https://bmc-cs-151.github.io/](https://bmc-cs-151.github.io/)
 
 Code Samples From Lecture
-: [Github](https://github.com/BMC-CS-151/class-examples-f25)
+: [Github](https://github.com/BMC-CS-151/class-examples-s26)
 
 Discussion Forum
-: [Piazza](https://piazza.com/brynmawr/fall2025/cs151)
+: [Piazza](https://piazza.com/brynmawr/spring2026/cs151)
 
 Time and place
 : Fall 2025, MW 11:40-1:00pm, Location: Park 337
