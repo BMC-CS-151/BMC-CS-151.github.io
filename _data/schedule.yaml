@@ -40,12 +40,12 @@
       assignments: 
         - 
           title: "Lab02 -  Inheritance, ExpandableArray"
-          url: "labs/Lab02.html"
+          #url: "labs/Lab02.html"
           deadline: "2026-02-02"
 
         -
           title: "HW01 - ExpandableArray & Inheritance"
-          url: "hws/HW01.html"
+          #url: "hws/HW01.html"
           deadline: "2026-02-02"
     - 
       date: 2026-02-02
@@ -67,12 +67,12 @@
       assignments: 
         - 
           title: "Lab03 -  LinkedLists"
-          url: "labs/Lab03.html"
+          #url: "labs/Lab03.html"
           deadline: "2026-02-16"
         - 
           title: "HW02 -  LinkedLists"
           deadline: "2026-02-16"
-          url: "hws/HW02.html"
+          #url: "hws/HW02.html"
         
     - 
       date: 2026-02-09
@@ -93,7 +93,7 @@
       assignments: 
         - 
           title: "Lab04 - Interfaces"
-          url: "labs/Lab04.html"
+          #url: "labs/Lab04.html"
           deadline: 2026-02-16
     - 
       date: 2026-02-16
