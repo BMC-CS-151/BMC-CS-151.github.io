@@ -3,8 +3,8 @@
     pic: edinella.jpg
     email: edinella@brynmawr.edu
     extra_title: Instructor
-    office_hours: Friday 3-5pm
-    location: Park 259
+    office_hours: Monday TBD
+    location: Park 230
 -
     name: Khanh Ha Nguyen
     pic: khanh_ha.jpeg
@@ -13,34 +13,34 @@
     office_hours: Monday 6-8pm
     location: TBD
 -
-    name: Glory Zhang
-    pic: glory.jpg
-    email: gzhang@brynmawr.edu
-    extra_title: Lab Teaching Assistant
-    office_hours: Tuesday 6-8pm
--
-    name: Reagan Buvens
-    pic: rrbuvens.png
-    email: rbuvens3@brynmawr.edu
-    extra_title: Teaching Assistant
-    office_hours: Wednesday 5-7pm
-    location: TBD
--
-    name: Ashley Zhuge 
-    pic: ashley.jpg
-    email: zzhuge@brynmawr.edu
-    extra_title: Teaching Assistant
-    office_hours: Thursday 5-7pm
-    location: TBD
--
     name: Maimoona Irfan
     pic: moona.jpeg
     email: mirfan2@brynmawr.edu
     extra_title: Teaching Assistant
-    office_hours: Friday 7-9pm
+    office_hours: Tuesday 6-8pm
     location: TBD
 -
     name: Fatma Ayad
     pic: fatma.jpg
     email: faya@brynmawr.edu
+    extra_title: Teaching Assistant
+    office_hours: Wednesday 6-8pm
+    location: TBD
+-
+    name: Gideon Grandis-McConnell
+    pic: TBD.jpg
+    email: ggrandismc@brynmawr.edu
+    extra_title: Teaching Assistant
+    office_hours: Thursday 6-8pm
+-
+    name: Hazel Nguyen
+    pic: tbd.png
+    email: hnguyen5@brynmawr.edu
+    extra_title: Teaching Assistant
+    office_hours: Friday 5-7pm
+    location: TBD
+-
+    name: Ashley Zhuge 
+    pic: ashley.jpg
+    email: zzhuge@brynmawr.edu
     extra_title: Lab Teaching Assistant
