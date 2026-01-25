@@ -23,7 +23,8 @@
           deadline: "2026-01-26"
     - 
       date: 2026-01-26
-      title: Lecture 2 <br> Inheritence <br> OOP 
+      title: Lecture 2 <br> No Class. 
+      #Inheritence <br> OOP 
       #slides: "slides/lecture02.pdf"
       recording: ~
       #readings:
