@@ -16,20 +16,101 @@ due_date:
 <!-- End of check whether the assignment is up to date -->
 
 
-Bash<span class="text-muted">: Greatest Hits</span> 
+CS151 Prerequisites<span class="text-muted">: Study Guide</span> 
 =============================================================
 
-#### Java 
-{% highlight tcsh %}
-$ ls # list all the files in this directory
-$ ls some/directory # list all the files in some/directory
-$ pwd # print the directory where you are currently working ("print working directory")
-$ cd some/directory # go to some/directory ("change directory")
-$ cd ~/ # take me home ("change directories to the user's home directory")
-$ mkdir new_directory # create a new diretory called new_directory ("make directory")
-$ rm file.txt # remove file.txt (be careful, it will be gone for good).
-$ rm -r directory # remove directory and all the files within it (again, gone for good).
-{% endhighlight %}
+The following list of topics are expected knowledge for 151:
+
+- Programming basics
+- Control flow
+- Strings and command line arguments
+- Arrays (Lists)
+- Recursion
+- Object Oriented Programming and class design
+- Runtime Complexity
+
+We recognize that some of these topics may benefit from review, so we have provided a study guide to help you prepare.
+
+#### Java basics
+
+Java is most different from python in the following ways:
+
+1. **Compilation**: Java is a compiled language. Unlike `.py` files, `.java` files must be compiled before they can be executed. 
+
+For example given a file `HW1.java`, 
+
+`javac Hw1.java`
+
+creates a `.class` file which can be run with:
+
+`java Hw1`
+
+The compiler is your friend. It will tell you when there are errors. Compile early and often. 
+
+
+2. **Hierarchal Structure**: In python you can freely declare variables or write print statements at any level. In java this is not allowed. Everything exists within a class. Statements/Expressions must be inside methods which must be inside classes. 
+
+In python you can just write,
+```py
+def f(x):
+    return x + 1
+```
+
+In java this must exist inside a class:
+```java
+class Utils {
+    int f(int x) {
+        return x + 1;
+    }
+}
+```
+
+Notice that the method `f` has an explicit return type (int) and parameter type (also int). This brings us to our next major difference between python and java...
+
+
+3. **Static Typing**:  All variables must be declared with *type* of data they are storing.
+
+Method parameters and return types also must be explicitly declared and are enforced by the compiler.
+
+Review the following resources:
+
+[static typing of variables](https://bmc-cs-113.github.io/slides/lecture02.pdf) 
+[Methods in java](https://bmc-cs-113.github.io/slides/lecture04.pdf)
+
+
+#### User Input
+
+There are two ways to read in data that we will use in this course. The major difference is *when* the data is supplied. 
+
+For **command line arguments** the data is supplied directly when you run the program. For example:
+`java Add 5 7`
+
+With the `Scanner`, we can take input while the program is running. For example:
+```
+$ java Add
+Please supply which numbers you would like to add
+5
+7
+```
+
+**Command line arguments** are supplied through the `main` method. This is the entry point of the proggram. It is the first thing that is executed when we run `java ...`
+
+The `main` method has a special syntax: `public static void main(String[] args) { }`
+
+The `args` parameter refers to the command line arguments.
+
+Download and run [this resource](https://github.com/BMC-CS-113/class-examples-s24/blob/main/lecture09/CmdArgs.java) to study reading in command line arguments.
+
+
+The **Scanner** class is 
+
+[Slides](https://bmc-cs-113.github.io/slides/lecture03.pdf) 10-14 discuss the **Scanner** object 
+
+
+Exercises: 
+https://bmc-cs-113.github.io/hws/HW01.html
+
+
 
 #### Classes
 {% highlight tcsh %}
