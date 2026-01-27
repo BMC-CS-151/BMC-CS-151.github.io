@@ -74,7 +74,7 @@ Java is most different from python in the following ways:
 
     Review the following resources:
 
-    [static typing of variables](https://bmc-cs-113.github.io/slides/lecture02.pdf) 
+    [static typing of variables](https://bmc-cs-113.github.io/slides/lecture02.pdf)    
     [Methods in java](https://bmc-cs-113.github.io/slides/lecture04.pdf)
 
 
@@ -110,7 +110,7 @@ Sample code is shown [here](https://github.com/BMC-CS-113/class-examples-s24/blo
 
 We recommend you complete the following exercises to study java basics and user input: 
 
-[Exercise 1](https://bmc-cs-113.github.io/hws/HW01.html)
+[Exercise 1](https://bmc-cs-113.github.io/hws/HW01.html)   
 [Exercise 2](https://bmc-cs-113.github.io/hws/HW02.html)
 
 
