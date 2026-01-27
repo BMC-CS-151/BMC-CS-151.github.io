@@ -31,21 +31,21 @@ The following list of topics are expected knowledge for 151:
 
 We recognize that some of these topics may benefit from review, so we have provided a study guide to help you prepare.
 
-#### Java basics
+#### Java Basics
 
 Java is most different from python in the following ways:
 
 1. **Compilation**: Java is a compiled language. Unlike `.py` files, `.java` files must be compiled before they can be executed. 
 
-For example given a file `HW1.java`, 
+    For example given a file `HW1.java`, 
 
-`javac Hw1.java`
+    `javac Hw1.java`
 
-creates a `.class` file which can be run with:
+    creates a `.class` file which can be run with:
 
-`java Hw1`
+    `java Hw1`
 
-The compiler is your friend. It will tell you when there are errors. Compile early and often. 
+    The compiler is your friend. It will tell you when there are errors. Compile early and often. 
 
 
 2. **Hierarchal Structure**: In python you can freely declare variables or write print statements at any level. In java this is not allowed. Everything exists within a class. Statements/Expressions must be inside methods which must be inside classes. 
