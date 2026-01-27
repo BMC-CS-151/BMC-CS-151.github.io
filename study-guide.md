@@ -50,32 +50,32 @@ Java is most different from python in the following ways:
 
 2. **Hierarchal Structure**: In python you can freely declare variables or write print statements at any level. In java this is not allowed. Everything exists within a class. Statements/Expressions must be inside methods which must be inside classes. 
 
-In python you can just write,
-```py
-def f(x):
-    return x + 1
-```
+    In python you can just write,
+    ```py
+    def f(x):
+        return x + 1
+    ```
 
-In java this must exist inside a class:
-```java
-class Utils {
-    int f(int x) {
-        return x + 1;
+    In java this must exist inside a class:
+    ```java
+    class Utils {
+        int f(int x) {
+            return x + 1;
+        }
     }
-}
-```
+    ```
 
-Notice that the method `f` has an explicit return type (int) and parameter type (also int). This brings us to our next major difference between python and java...
+    Notice that the method `f` has an explicit return type (int) and parameter type (also int). This brings us to our next major difference between python and java...
 
 
 3. **Static Typing**:  All variables must be declared with *type* of data they are storing.
 
-Method parameters and return types also must be explicitly declared and are enforced by the compiler.
+    Method parameters and return types also must be explicitly declared and are enforced by the compiler.
 
-Review the following resources:
+    Review the following resources:
 
-[static typing of variables](https://bmc-cs-113.github.io/slides/lecture02.pdf) 
-[Methods in java](https://bmc-cs-113.github.io/slides/lecture04.pdf)
+    [static typing of variables](https://bmc-cs-113.github.io/slides/lecture02.pdf) 
+    [Methods in java](https://bmc-cs-113.github.io/slides/lecture04.pdf)
 
 
 #### User Input
@@ -102,14 +102,16 @@ The `args` parameter refers to the command line arguments.
 Download and run [this resource](https://github.com/BMC-CS-113/class-examples-s24/blob/main/lecture09/CmdArgs.java) to study reading in command line arguments.
 
 
-The **Scanner** class is 
+The **Scanner** class:
 
-[Slides](https://bmc-cs-113.github.io/slides/lecture03.pdf) 10-14 discuss the **Scanner** object 
+[Slides](https://bmc-cs-113.github.io/slides/lecture03.pdf) 10-14 discusses the **Scanner** object 
 
+Sample code is shown [here](https://github.com/BMC-CS-113/class-examples-s24/blob/main/lecture04/LeapYears.java).
 
-Exercises: 
-https://bmc-cs-113.github.io/hws/HW01.html
+We recommend you complete the following exercises to study java basics and user input: 
 
+[Exercise 1](https://bmc-cs-113.github.io/hws/HW01.html)
+[Exercise 2](https://bmc-cs-113.github.io/hws/HW02.html)
 
 
 #### Classes
