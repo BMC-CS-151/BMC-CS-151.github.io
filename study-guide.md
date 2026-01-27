@@ -114,81 +114,61 @@ We recommend you complete the following exercises to study java basics and user 
 [Exercise 2](https://bmc-cs-113.github.io/hws/HW02.html)
 
 
-#### Classes
-{% highlight tcsh %}
-$ ls -lah file.txt #print the size of file.txt in bytes (also the date it was created)
-$ wc -l file.txt #print the number of lines in file.txt
-$ file file.txt #print the type of the file (e.g. is it a text file? compressed archive?)
-$ head file.txt #print the first 10 lines of file.txt
-$ head -NUM file.txt #print the first NUM lines of file.txt (e.g. head -3 prints first 3 lines)
-$ tail -NUM file.txt #print the last NUM lines of file.txt (e.g. tail -3 prints last 3 lines)
-$ cat file.txt #print the entire contents of file.txt
-$ tar -xzvf file.tar.gz #unzip a tar archived file
-$ tar -czvf files.tar.gz files/ #create a tar archived file containing the contents of the directory files/
-{% endhighlight %}
+### Classes
+A class groups related variables and methods into a single unit. 
 
-#### Runtime Complexity
-{% highlight tcsh %}
-$ sort file.txt # sort the lines in file.txt (by default, alphabetically and ascending)
-$ sort -r file.txt # sort the lines in file.txt in reverse order
-$ sort -nr file.txt # sort the lines in file.txt numerically and in reverse order
-$ uniq file.txt # remove duplicate lines (only works if you use "sort" first)
-$ uniq -c file.txt # print out unique lines and the number of times each one occurs
-$ cut -f 1 file.txt # print the first column of the file.txt (assumes columns are tab-separated)
-$ cut -f 1 -d ',' file.csv # print the first column of file.csv, split on comma instead of tab
-$ grep "phrase" file.txt # print out lines in file.txt that contain the string "phrase"
-$ grep -i "phrase" file.txt # same as above, but ignoring case
-$ grep -v "phrase" file.txt # print out lines in file.txt that don't contain the string "phrase"
-$ shuf file.txt # shuffle the lines in file.txt
-{% endhighlight %}
+[Slides](https://bmc-cs-113.github.io/slides/lecture14.pdf) 28-43 provide an introduction to classes in java.
 
-#### Gettin' fancy
-Bash commands are connecting via "pipes", which means the input of one command is the output of the previous command. We use the | character to "pipe" one command's output into another. Below are some useful examples.
-{% highlight tcsh %}
-$ cat file.txt | sort | uniq | wc -l # how many unique lines are in this file
-$ cat file.txt | sort | uniq -c | sort -nr # print out the unique lines in file.txt, with the most frequent line and its count at the top
-$ cat file.txt | grep "phrase" | wc -l # how many lines in this file contain the phrase "phrase" 
-$ cat file.txt | sort | uniq -c | sort -nr | head -100 | shuf | head -10 # take a random sample of 10 of the top 100 most frequent lines
-{% endhighlight %}
-Bash can also write to files! This makes a life a lot easier than dragging your cursor, copying large chunks of text from the terminal window. File Output Redirection can be done using the <code> > </code> or <code> >> </code> operators. 
-{% highlight tcsh %}
-$ grep "Hello" file.txt > output.txt # Stores every line containing "Hello" in file.txt in a new file output.txt
-$ cat file.txt | sort | uniq -c | sort -nr > output.txt # stores the unique lines of file.txt, with the most frequent line and its count at the top, in output.txt. Overwrites the old contents of output.txt (Careful!)
-$ cat output.txt | wc -l >> output.txt # Appends the line count of output.txt to the end of output.txt
-{% endhighlight %}
+The referenced `BankAccount` code is provided [here](https://github.com/BMC-CS-113/class-examples-s24/blob/main/lecture15/BankAccount.java)
 
-#### Downloading Files
-To download the contents of any URL (whether it be a file, HTML page or even a picture), there's a very useful command on Mac and Linux.
-{% highlight tcsh %}
-$ wget https://cs.brynmawr.edu/cs113/website/hws/HW00.html # Downloads the contents of the URL as the file 'HW00.html' to the current directory (used in Linux)
-{% endhighlight %}
-{% highlight tcsh %}
-$ curl -O https://cs.brynmawr.edu/cs113/website/hws/HW00.html # Downloads the contents of the URL as the file 'HW00.html' to the current directory (used in Mac)
-{% endhighlight %}
 
-#### Uploading Files and Directories
-To turn in your HWs, you will need to upload files to Gradescope. If you are accessing the CS lab machines remotely, you will need to copy the files over onto your own computer to upload to Gradescope. 
-There are some commands below which show how to transfer your HW files from the lab machine to your local computer over SSH. The <code>:~/</code> at the end is required always. For directories, the <code>-r</code> flag is required. 
-{% highlight tcsh %}
-$ scp  username@serveraddress:/home/username/path-to-file/your_file_name . # This copies the file "your_file_name" from the remote server to your computer. 
-$ scp johndoe@goldengate.cs.brynmawr.edu:/home/johndoe/CS113/hw10/README.txt . # This copies README.txt to your current directory. 
-$ scp -r username@serveraddress:~/home/username/path-to-dir . # This copies the entire directory "your_dir" from the remote server to your current directory on your own computer.
-$ scp -r johndoe@goldengate.cs.brynmawr.edu:~/home/username/CS113/hw09 # This copies the hw09 directory from the remote server to your computer.
-{% endhighlight %}
+Special methods in a class:
 
-#### VIM
-We will be using vim/vi as our text editor. vim is a powerful editor. Make sure to do the vim tutorial linked to in the first lab. 
-Here are some of the most common things you need to remember about vim
+- `toString`: 
 
-This [cheat sheet](https://vim.rtorr.com/) lists lots of useful vim commands on one page.
+Java classes have a special method defined as `public String toString()`.
 
-{% highlight tcsh %}
-`i` starts an interactive session
-`ESC` will end interactive mode
-`:` is how you specific many command
-`:w` writes/saves the file
-`:q` quits vim
-`:q!` quits vim without saving changes
-`:! <...>` will run a bash command. For example `:! ls` will list the files in the directory you are currently in
-{% endhighlight %}
+To understand the purpose of a `toString` method, try printing the `account` variable created in the `main` of the `BankAccount` class. 
+
+You should see something like this:
+```
+BankAccount@2a139a55
+```
+
+When printing objects in java, if a `toString()` is not defined, it will print the type of the object (`BankAccount`) and the memory address where it is stored (2a139a55).
+
+Classes are collections of many variables, and it is unclear which variables should be printed if you do not explicitly define it. This is the purpose of a `toString()`. 
+
+Practice adding one for the `BankAccount` class that prints the account name and balance. 
+
+- the `constructor`:
+
+constructors are special methods that are run when an object is created (with the `new` keyword). 
+The initialize the object and provide starting values for the variables. 
+
+The constructor has the same name as the class and does not have a return type.
+
+
+#### Inheritance
+
+The goal of inheritance is to enable reuse of fields and methods in classes. 
+
+Review [slides](https://bmc-cs-113.github.io/slides/lecture16.pdf) 22-38 on inheritance.
+
+The referenced classes are in [this](https://github.com/BMC-CS-113/class-examples-s24/tree/main/lecture17) folder.
+
+
+We recommend you complete the following exercise to practice your knowledge of classes in Java:
+[Exercise 1](https://bmc-cs-113.github.io/hws/HW09.html)
+[Exercise 2](https://bmc-cs-113.github.io/hws/HW10.html)
+
+
+### Runtime Analysis
+
+In 151 we will use mathematical notation used to describe the performance or complexity of an algorithm.
+We use this instead of concrete times (seconds or miliseconds) because it is hardware independent. 
+Big-O notation represents the upper bound of the time complexity in the worst-case scenario. 
+It helps us understand how the runtime of an algorithm grows as the input size increases.
+
+Complete part 1 of [this exercise](https://bmc-cs-113.github.io/labs/Lab11.html) to practice runtime analysis.
 
