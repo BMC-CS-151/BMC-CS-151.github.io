@@ -42,12 +42,12 @@
         - 
           title: "Lab02 -  Inheritance, ExpandableArray"
           #url: "labs/Lab02.html"
-          deadline: "2026-02-02"
+          deadline: "2026-02-04"
 
         -
           title: "HW01 - ExpandableArray & Inheritance"
           #url: "hws/HW01.html"
-          deadline: "2026-02-02"
+          deadline: "2026-02-04"
     - 
       date: 2026-02-02
       title: Lecture 4 <br> LinkedList
