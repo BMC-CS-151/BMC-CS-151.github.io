@@ -4,8 +4,8 @@ title: "Inheritance & ExpandableArray"
 type: Lab
 number: 02
 active_tab: lab
-release_date: 2025-09-10
-due_date: 2025-09-19
+release_date: 2026-01-28
+due_date: 2026-02-04
 ---
 
 <!-- Check whether the assignment is ready to release -->
