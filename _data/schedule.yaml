@@ -50,7 +50,7 @@
           deadline: "2026-02-04"
     - 
       date: 2026-02-02
-      title: Lecture 4 <br> LinkedList
+      title: Lecture 4 <br> Array Review <br> Runtime Complexity <br> Nested Classes 
       #readings:
       #  -
       #    title: "Chapter 3"
@@ -59,7 +59,7 @@
 
     - 
       date: 2026-02-04
-      title: Lecture 5 <br> FancyLinkedList
+      title: Lecture 5 <br> LinkedList
       #readings:Copy of 
       #  -
       #    title: "Chapter 3"
@@ -68,12 +68,12 @@
       assignments: 
         - 
           title: "Lab03 -  LinkedLists"
-          #url: "labs/Lab03.html"
+          url: "labs/Lab03.html"
           deadline: "2026-02-16"
         - 
           title: "HW02 -  LinkedLists"
           deadline: "2026-02-16"
-          #url: "hws/HW02.html"
+          url: "hws/HW02.html"
         
     - 
       date: 2026-02-09
