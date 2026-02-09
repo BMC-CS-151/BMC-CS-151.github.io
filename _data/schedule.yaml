@@ -63,7 +63,7 @@
       #readings:Copy of 
       #  -
       #    title: "Chapter 3"
-      #slides: "slides/lecture05.pdf"
+      slides: "slides/lecture05.pdf"
       recording: ~
       assignments: 
         - 
@@ -78,7 +78,7 @@
     - 
       date: 2026-02-09
       title: Lecture 6 <br> Doubly Linked Lists
-      #slides: "slides/lecture06.pdf"
+      slides: "slides/lecture06.pdf"
       recording: ~
       #readings:
       #    -
