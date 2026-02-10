@@ -85,8 +85,8 @@
       #      title: "Chapter 4"
     -
       date: 2026-02-11
-      title: Lecture 7 <br> Interfaces <br> Object Comparison <br> Algorithmic Analysis
-      #slides: "slides/lecture07.pdf"
+      title: Lecture 7 <br> Interfaces <br> Object Comparison 
+      slides: "slides/lecture07.pdf"
       #readings:
       #  -
       #    title: "Chapter 6.1"
@@ -94,8 +94,8 @@
       assignments: 
         - 
           title: "Lab04 - Interfaces"
-          #url: "labs/Lab04.html"
-          deadline: 2026-02-16
+          url: "labs/Lab04.html"
+          deadline: 2026-02-18
     - 
       date: 2026-02-16
       title: Lecture 8 <br> Stacks <br> Checkstyle <br> Junit
