@@ -99,7 +99,7 @@
     - 
       date: 2026-02-16
       title: Lecture 8 <br> Stacks <br> Checkstyle <br> Junit
-      #slides: "slides/lecture08.pdf"
+      slides: "slides/lecture08.pdf"
       #readings:
       #  -
       #    title: "Chapter 6.2-6.3"
