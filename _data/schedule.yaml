@@ -115,12 +115,12 @@
       assignments: 
         - 
           title: "Lab05 - Stacks"
-          #url: "labs/Lab05.html"
-          deadline: 2026-02-23
+          url: "labs/Lab05.html"
+          deadline: 2026-02-25
         -
-          deadline: 2026-02-23
+          deadline: 2026-02-25
           title: "HW03 -  Stacks & Queues"
-          #url: "hws/HW03.html"
+          url: "hws/HW03.html"
     -
       date: 2026-02-23
       title: Lecture 10 <br> Implementing Queues <br> Dequeues 
