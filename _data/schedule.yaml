@@ -132,21 +132,21 @@
       
     - 
       date: 2026-02-25
-      title: Lecture 10 <br> Implementing Queues <br> Dequeues 
+      title: Lecture 10 <br> Implementing Queues <br> Dequeues <br> Iterators
       #slides: "slides/lecture11.pdf"
       #readings:
       #  -
       #    title: "Chapter 8"
     - 
       date: 2026-03-02
-      title: Lecture 11 <br> Lists <br> Iterators <br> Binary Search  #Trees
+      title: Lecture 11 <br> Binary Search  #Trees
     -
       date: 2026-03-04
       title: Lecture 12 <br> Trees 
       assignments: 
         - 
           title: "Lab06 - Iterators & ArrayList"
-          #url: "labs/Lab06.html"
+          url: "labs/Lab06.html"
           deadline: 2026-03-16
         - 
           title: "HW04 - Binary Search"
