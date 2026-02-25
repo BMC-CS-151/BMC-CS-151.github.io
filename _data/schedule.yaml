@@ -174,13 +174,13 @@
 -
   lectures:
     - 
-      date: 2026-03-16
+      date: 2026-03-23
       title: Lecture 14 <br> Tree Traversals
       #slides: "slides/lecture13.pdf"
       recording: ~
       assignments: ~
     -
-      date: 2026-03-18
+      date: 2026-03-25
       title: Lecture 15 <br> Heaps 
       #slides: "slides/lecture14.pdf"
       #recording: ~
@@ -194,13 +194,13 @@
             deadline: 2026-03-23
             #url: "hws/HW05.html"
     - 
-      date: 2026-03-23
+      date: 2026-03-30
       title: Lecture 16 <br> Heaps II
       #slides: "slides/lecture15.pdf"
       recording: ~
       assignments: ~
     - 
-      date: 2026-03-25
+      date: 2026-04-01
       title: Lecture 17 <br> Priority Queues
       #slides: "slides/lecture16.pdf"
       recording: ~
