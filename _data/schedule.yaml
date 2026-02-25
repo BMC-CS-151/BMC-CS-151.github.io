@@ -142,7 +142,7 @@
       title: Lecture 11 <br> Lists <br> Iterators <br> Binary Search  #Trees
     -
       date: 2026-03-04
-      title: Lecture 12 
+      title: Lecture 12 <br> Trees 
       assignments: 
         - 
           title: "Lab06 - Iterators & ArrayList"
@@ -163,7 +163,7 @@
       title: Spring Break No Class
     - 
       date: 2026-03-16
-      title: Lecture 12 <br> Midterm Review 
+      title: Lecture 13 <br> Midterm Review 
       #slides: "slides/lecture12.pdf"
       #recording: ~
     -
@@ -175,13 +175,13 @@
   lectures:
     - 
       date: 2026-03-16
-      title: Lecture 13 <br> Trees
+      title: Lecture 14 <br> Tree Traversals
       #slides: "slides/lecture13.pdf"
       recording: ~
       assignments: ~
     -
       date: 2026-03-18
-      title: Lecture 14 <br> Tree Traversals
+      title: Lecture 15 <br> Heaps 
       #slides: "slides/lecture14.pdf"
       #recording: ~
       assignments:
@@ -195,13 +195,13 @@
             #url: "hws/HW05.html"
     - 
       date: 2026-03-23
-      title: Lecture 15 <br> Heaps 
+      title: Lecture 16 <br> Heaps II
       #slides: "slides/lecture15.pdf"
       recording: ~
       assignments: ~
     - 
       date: 2026-03-25
-      title: Lecture 16 <br> Heaps <br> Priority Queues
+      title: Lecture 17 <br> Priority Queues
       #slides: "slides/lecture16.pdf"
       recording: ~
       readings: ~
@@ -216,13 +216,13 @@
           #url: "hws/HW06.html"
     - 
       date: 2026-03-30
-      title: Lecture 17 <br> Priority Queues 
+      title: Lecture 18 <br> Maps <br> HashMaps
       #slides: "slides/lecture17.pdf"
       recording: ~
       readings: ~
     - 
       date: 2026-04-01
-      title: Lecture 18 <br> Maps <br> HashMaps
+      title: Lecture 19 <br>  HashMaps II <br> Handling Collisions
       #slides: "slides/lecture18.pdf"
       assignments: 
         - 
@@ -233,11 +233,11 @@
           title: "No Homework"
     - 
       date: 2026-04-06
-      title: Lecture 19 <br> HashMaps II <br> Handling Collisions
+      title: Lecture 20 <br> HashMaps III
       #slides: "slides/lecture19.pdf"
     - 
       date: 2026-04-08
-      title: Lecture 20 <br> HashMaps III
+      title: Lecture 21 <br> Merge Sort <br> Quick Sort
       #slides: "slides/lecture20.pdf"
       #recording: ~
       #readings:
@@ -254,7 +254,7 @@
             #url: "hws/HW07.html"
     - 
       date: 2026-04-13
-      title: Lecture 21 <br> No Class. 
+      title: Lecture 22 <br> No Class. 
       #Merge Sort <br> Quick Sort
       #slides: "slides/lecture21.pdf"
       #recording: ~
@@ -265,7 +265,7 @@
       #    title: "Chapter 11.2 - 11.3 Balanced Trees, AVL Trees"
     - 
       date: 2026-04-15
-      title: Lecture 22 <br> No Class.
+      title: Lecture 23 <br> No Class.
       #slides: "slides/lecture22.pdf"
       recording: ~
       #readings:
@@ -280,13 +280,13 @@
           title: "No Homework"
     - 
       date: 2026-04-20
-      title: Lecture 23 <br> Merge Sort <br> Quick Sort
+      title: Lecture 24 <br> AVL Trees
       #slides: "slides/lecture23.pdf"
       readings: ~
       recording: ~
     - 
       date: 2026-04-22
-      title: Lecture 24 <br> AVL Trees II
+      title: Lecture 25 <br> AVL Trees II
       #slides: "slides/lecture24.pdf"
       recording: ~
       assignments: 
@@ -300,14 +300,14 @@
           #url: "hws/HW08.html"
     - 
       date: 2026-04-27
-      title: Lecture 25  <br> Graphs  
+      title: Lecture 26  <br> Graphs  
       #slides: "slides/lecture25.pdf"
       readings:
         -
           title: "Chapter 14.1 - Chapter 14.3"
     -
       date: 2026-04-29
-      title: Lecture 26 <br> Final Review
+      title: Lecture 27 <br> Final Review
       #slides: "slides/lecture26.pdf"
       readings: ~
       recording: ~
