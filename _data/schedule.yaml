@@ -140,6 +140,7 @@
     - 
       date: 2026-03-02
       title: Lecture 11 <br> Binary Search  #Trees
+      slides: "slides/lecture11.pdf"
     -
       date: 2026-03-04
       title: Lecture 12 <br> Trees 
