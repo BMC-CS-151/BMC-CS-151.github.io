@@ -177,33 +177,33 @@
   lectures:
     - 
       date: 2026-03-23
-      title: Lecture 14 <br> Tree Traversals
+      title: Lecture 14 <br> Tree Review <br> Heaps
       #slides: "slides/lecture13.pdf"
       recording: ~
       assignments: ~
     -
       date: 2026-03-25
-      title: Lecture 15 <br> Heaps 
+      title: Lecture 15 <br> Heaps II
       #slides: "slides/lecture14.pdf"
       #recording: ~
       assignments:
           -
             title: "Lab07 - Binary Trees"
-            #url: "labs/Lab07.html"
-            deadline: 2026-03-23
+            url: "labs/Lab07.html"
+            deadline: 2026-03-29
           -
             title: "HW05 - Binary Trees"
-            deadline: 2026-03-23
-            #url: "hws/HW05.html"
+            deadline: 2026-03-29
+            url: "hws/HW05.html"
     - 
       date: 2026-03-30
-      title: Lecture 16 <br> Heaps II
+      title: Lecture 16 <br> Priority Queues
       #slides: "slides/lecture15.pdf"
       recording: ~
       assignments: ~
     - 
       date: 2026-04-01
-      title: Lecture 17 <br> Priority Queues
+      title: Lecture 17 <br> Maps <br> HashMaps
       #slides: "slides/lecture16.pdf"
       recording: ~
       readings: ~
@@ -218,40 +218,21 @@
           #url: "hws/HW06.html"
     - 
       date: 2026-04-06
-      title: Lecture 18 <br> Maps <br> HashMaps
+      title: Lecture 18 <br> HashMaps II <br> Handling Collisions
       #slides: "slides/lecture17.pdf"
       recording: ~
       readings: ~
     - 
       date: 2026-04-08
-      title: Lecture 19 <br>  HashMaps II <br> Handling Collisions
+      title: Lecture 19 <br> Merge Sort <br> Quick Sort 
       #slides: "slides/lecture18.pdf"
-      assignments: 
-        - 
-          #deadline: 2023-12-05
-          title: "No Lab"
-          #url: "labs/Lab09.html"
-        -
-          title: "No Homework"
-    - 
-      date: 2026-04-06
-      title: Lecture 20 <br> HashMaps III
-      #slides: "slides/lecture19.pdf"
-    - 
-      date: 2026-04-08
-      title: Lecture 21 <br> Merge Sort <br> Quick Sort
-      #slides: "slides/lecture20.pdf"
-      #recording: ~
-      #readings:
-      #  -
-      #    title: "Chapter 12 - Sorting & Selection"
       assignments: 
         -
             title: "Lab09 - HashMaps"
-            deadline: 2026-04-13
+            deadline: 2026-04-19
             #url: "labs/Lab09.html"
         -
-            deadline: 2026-04-13
+            deadline: 2026-04-19
             title: "HW07 - Hash Tables"
             #url: "hws/HW07.html"
     - 
@@ -273,13 +254,7 @@
       #readings:
       #  -
       #    title: "Chapter 11.2 - 11.6"
-      assignments: 
-        -
-          title: "No Lab"
-          #url: "labs/Lab10.html"
-          #deadline: 2025-12-06
-        -
-          title: "No Homework"
+      assignments: ~
     - 
       date: 2026-04-20
       title: Lecture 24 <br> AVL Trees
