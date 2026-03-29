@@ -210,12 +210,12 @@
       assignments: 
         - 
           title: "Lab08 - Array based Binary Trees & Heaps"
-          #url: "labs/Lab08.html"
-          deadline: 2026-03-30
+          url: "labs/Lab08.html"
+          deadline: 2026-04-06
         - 
           title: "HW06 - Heaps"
-          deadline: 2026-03-30
-          #url: "hws/HW06.html"
+          deadline: 2026-04-06
+          url: "hws/HW06.html"
     - 
       date: 2026-04-06
       title: Lecture 18 <br> HashMaps II <br> Handling Collisions
