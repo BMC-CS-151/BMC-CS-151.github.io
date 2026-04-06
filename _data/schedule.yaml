@@ -230,11 +230,11 @@
         -
             title: "Lab09 - HashMaps"
             deadline: 2026-04-19
-            #url: "labs/Lab09.html"
+            url: "labs/Lab09.html"
         -
             deadline: 2026-04-19
             title: "HW07 - Hash Tables"
-            #url: "hws/HW07.html"
+            url: "hws/HW07.html"
     - 
       date: 2026-04-13
       title: Lecture 22 <br> No Class. 
