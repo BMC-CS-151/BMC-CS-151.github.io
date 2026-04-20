@@ -237,7 +237,7 @@
             url: "hws/HW07.html"
     - 
       date: 2026-04-13
-      title: Lecture 22 <br> No Class. 
+      title: No Class. 
       #Merge Sort <br> Quick Sort
       #slides: "slides/lecture21.pdf"
       #recording: ~
@@ -248,7 +248,7 @@
       #    title: "Chapter 11.2 - 11.3 Balanced Trees, AVL Trees"
     - 
       date: 2026-04-15
-      title: Lecture 23 <br> No Class.
+      title: No Class.
       #slides: "slides/lecture22.pdf"
       recording: ~
       #readings:
@@ -257,34 +257,34 @@
       assignments: ~
     - 
       date: 2026-04-20
-      title: Lecture 24 <br> AVL Trees
+      title: Lecture 20 <br> AVL Trees
       #slides: "slides/lecture23.pdf"
       readings: ~
       recording: ~
     - 
       date: 2026-04-22
-      title: Lecture 25 <br> AVL Trees II
+      title: Lecture 21 <br> AVL Trees II
       #slides: "slides/lecture24.pdf"
       recording: ~
       assignments: 
         - 
           title: "Lab 10 - AVL Trees"
           deadline: 2026-05-01
-          #url: "labs/Lab10.html"
+          url: "labs/Lab10.html"
         -
           title: "HW08 - AVL Trees"
           deadline: 2026-05-01
-          #url: "hws/HW08.html"
+          url: "hws/HW08.html"
     - 
       date: 2026-04-27
-      title: Lecture 26  <br> Graphs  
+      title: Lecture 22  <br> Graphs  
       #slides: "slides/lecture25.pdf"
       readings:
         -
           title: "Chapter 14.1 - Chapter 14.3"
     -
       date: 2026-04-29
-      title: Lecture 27 <br> Final Review
+      title: Lecture 23 <br> Final Review
       #slides: "slides/lecture26.pdf"
       readings: ~
       recording: ~
