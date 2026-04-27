@@ -278,7 +278,7 @@
     - 
       date: 2026-04-27
       title: Lecture 22  <br> Graphs  
-      #slides: "slides/lecture25.pdf"
+      slides: "slides/lecture22.pdf"
       readings:
         -
           title: "Chapter 14.1 - Chapter 14.3"
