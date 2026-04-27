@@ -291,7 +291,7 @@
       assignments:
           - 
             title: "Lab 11 - Graphs"
-            #url: "labs/Lab11.html"
+            url: "labs/Lab11.html"
             deadline: 2026-05-01
           -
             title: "No Homework"
