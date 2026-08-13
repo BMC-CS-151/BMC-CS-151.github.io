@@ -21,9 +21,6 @@
       recording: ~
       assignments: 
         - 
-          title: "Lab00 - Command Line, Unix, Vim"
-          url: "labs/Lab00.html"
-        - 
           title: "Lab01 -  Exceptions & I/O"
           url: "labs/Lab01.html"
           deadline: 2026-01-28
