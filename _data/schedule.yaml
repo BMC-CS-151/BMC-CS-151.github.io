@@ -13,10 +13,6 @@
         - 
           title: "Lab00 - Command Line, Unix, Vim"
           url: "labs/Lab00.html"
-        -
-          title: "HW00 - Arrays & Classes"
-          url: "hws/HW00.html"
-          deadline: "2026-01-26"
     - 
       date: 2026-09-03
       title: Lecture 2 <br> OOP. 
