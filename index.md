@@ -50,7 +50,7 @@ Course number
 : CMSC B151 
 
 Instructor
-: [Elizabeth Dinella](https://elizabethdinella.github.io/)
+: [Elizabeth Dinella](https://elizabethdinella.github.io/) [Dianna Xu](https://www.cs.brynmawr.edu/~dxu/)
 
 Teaching Assistants
 : [Course Staff](staff.html) 
