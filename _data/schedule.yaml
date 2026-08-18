@@ -3,7 +3,7 @@
     - 
       date: 2026-09-01
       title: Lecture 1 <br> Java Review
-      slides:  "slides/lecture01.pdf"
+      #slides:  "slides/lecture01.pdf"
       recording: ~
           #code: "https://github.com/BMC-CS-151/class-examples-f23/tree/main/week1/"
       #readings:
@@ -35,7 +35,7 @@
     - 
       date: 2026-09-08
       title: Lecture 3 <br> Arrays <br> Generics
-      slides: "slides/lecture03.pdf"
+      #slides: "slides/lecture03.pdf"
       recording: ~
       #readings:
       #  -
@@ -46,7 +46,7 @@
       #readings:
       #  -
       #    title: "Chapter 3"
-      slides: "slides/lecture04.pdf"
+      #slides: "slides/lecture04.pdf"
       recording: ~
       assignments: 
         - 
@@ -64,12 +64,12 @@
       #readings:Copy of 
       #  -
       #    title: "Chapter 3"
-      slides: "slides/lecture05.pdf"
+      #slides: "slides/lecture05.pdf"
       recording: ~
     - 
       date: 2026-09-17
       title: Lecture 6 <br> Doubly Linked Lists
-      slides: "slides/lecture06.pdf"
+      #slides: "slides/lecture06.pdf"
       recording: ~
       assignments: 
         - 
@@ -86,7 +86,7 @@
     -
       date: 2026-09-22
       title: Lecture 7 <br> Interfaces <br> Object Comparison 
-      slides: "slides/lecture07.pdf"
+      #slides: "slides/lecture07.pdf"
       #readings:
       #  -
       #    title: "Chapter 6.1"
@@ -94,7 +94,7 @@
     - 
       date: 2026-09-24
       title: Lecture 8 <br> Stacks <br> Checkstyle <br> Junit
-      slides: "slides/lecture08.pdf"
+      #slides: "slides/lecture08.pdf"
       #readings:
       #  -
       #    title: "Chapter 6.2-6.3"
@@ -107,7 +107,7 @@
     -
       date: 2026-09-29
       title: Lecture 9 <br> Implementing Stacks <br> Queues 
-      slides: "slides/lecture09.pdf"
+      #slides: "slides/lecture09.pdf"
       #readings:
       #  -
       #    title: "Chapter 7"
@@ -132,14 +132,14 @@
     - 
       date: 2026-10-06
       title: Lecture 10 <br> Implementing Queues <br> Dequeues <br> Iterators
-      slides: "slides/lecture10.pdf"
+      #slides: "slides/lecture10.pdf"
       #readings:
       #  -
       #    title: "Chapter 8"
     - 
       date: 2026-10-08
       title: Lecture 11 <br> Binary Search  #Trees
-      slides: "slides/lecture11.pdf"
+      #slides: "slides/lecture11.pdf"
       assignments: 
         - 
           title: "Lab06 - Iterators & ArrayList"
@@ -161,7 +161,7 @@
     - 
       date: 2026-10-20
       title: Lecture 13 <br> Midterm Review 
-      slides: "slides/lecture13.pdf"
+      #slides: "slides/lecture13.pdf"
       #recording: ~
     -
       date: 2026-10-22
@@ -173,13 +173,13 @@
     - 
       date: 2026-10-27
       title: Lecture 14 <br> Tree Review <br> Heaps
-      slides: "slides/lecture14.pdf"
+      #slides: "slides/lecture14.pdf"
       recording: ~
       assignments: ~
     -
       date: 2026-10-29
       title: Lecture 15 <br> Heaps II
-      slides: "slides/lecture15.pdf"
+      #slides: "slides/lecture15.pdf"
       #recording: ~
       assignments:
           -
@@ -193,13 +193,13 @@
     - 
       date: 2026-11-03
       title: Lecture 16 <br> Priority Queues
-      slides: "slides/lecture16.pdf"
+      #slides: "slides/lecture16.pdf"
       recording: ~
       assignments: ~
     - 
       date: 2026-11-05
       title: Lecture 17 <br> Maps <br> HashMaps
-      slides: "slides/lecture17.pdf"
+      #slides: "slides/lecture17.pdf"
       recording: ~
       readings: ~
       assignments: 
@@ -214,13 +214,13 @@
     - 
       date: 2026-11-10
       title: Lecture 18 <br> HashMaps II <br> Handling Collisions
-      slides: "slides/lecture18.pdf"
+      #slides: "slides/lecture18.pdf"
       recording: ~
       readings: ~
     - 
       date: 2026-11-12
-      title: Lecture 19 <br> Merge Sort <br> Quick Sort 
-      slides: "slides/lecture19.pdf"
+      title: Lecture 19 <br> Merge Sort 
+      #slides: "slides/lecture19.pdf"
       assignments: 
         -
             title: "Lab09 - HashMaps"
@@ -232,13 +232,13 @@
             url: "hws/HW07.html"
     - 
       date: 2026-11-17
-      title: Lecture 20 <br> AVL Trees 
-      slides: "slides/lecture20.pdf"
+      title: Lecture 20 <br> Quick Sort
+      #slides: "slides/lecture20.pdf"
       recording: ~
     - 
       date: 2026-11-19
-      title: Lecture 21  <br> AVL Trees II 
-      slides: "slides/lecture21.pdf"
+      title: Lecture 21  <br> AVL Trees
+      #slides: "slides/lecture21.pdf"
       readings:
         -
           title: "Chapter 14.1 - Chapter 14.3"
@@ -253,18 +253,18 @@
           url: "hws/HW08.html"
     -
       date: 2026-11-24
-      title: Lecture 22 <br> Graphs
-      slides: "slides/lecture22.pdf"
+      title: Lecture 22 <br> AVL Trees II
+      #slides: "slides/lecture22.pdf"
     -
       date: 2026-11-26
       title: Thanksgiving break. No class.
       #slides: "slides/lecture22.pdf"
     -
       date: 2026-12-01
-      title: Final Review
+      title: Lecture 23 <br> Union Find
     -
       date: 2026-12-03
-      title: Final Review
+      title: Lecture 24 <br> Graphs
       readings: ~
       recording: ~
       assignments:
