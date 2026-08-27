@@ -15,7 +15,7 @@
           url: "labs/Lab00.html"
     - 
       date: 2026-09-03
-      title: Lecture 2 <br> OOP. 
+      title: Lecture 2 <br> OOP
       #Inheritence <br> OOP 
       #slides: "slides/lecture02.pdf"
       recording: ~
@@ -23,18 +23,18 @@
         - 
           title: "Lab01 -  Exceptions & I/O"
           url: "labs/Lab01.html"
-          deadline: 2026-01-28
+          deadline: 2026-09-11
         -
           title: "HW00 - Arrays & Classes"
           url: "hws/HW00.html"
-          deadline: "2026-01-26"
+          deadline: "2026-09-11"
 
       #readings:
       #  -
       #    title: "Chapter 2, Chapter 3.1, Chapter 7.2"
     - 
       date: 2026-09-08
-      title: Lecture 3 <br> Arrays <br> Generics
+      title: Lecture 3 <br> OOP II <br> Arrays <br> Generics
       #slides: "slides/lecture03.pdf"
       recording: ~
       #readings:
@@ -50,14 +50,15 @@
       recording: ~
       assignments: 
         - 
+          title: "Quiz 1 - Exceptions"
+        - 
           title: "Lab02 -  Inheritance, ExpandableArray"
           url: "labs/Lab02.html"
-          deadline: "2026-02-04"
-
+          #deadline: "2026-02-04"
         -
           title: "HW01 - ExpandableArray & Inheritance"
           url: "hws/HW01.html"
-          deadline: "2026-02-04"
+          #deadline: "2026-02-04"
     - 
       date: 2026-09-15
       title: Lecture 5 <br> LinkedList
