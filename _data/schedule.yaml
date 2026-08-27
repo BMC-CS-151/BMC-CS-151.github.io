@@ -50,8 +50,6 @@
       recording: ~
       assignments: 
         - 
-          title: "Quiz 1 - Exceptions"
-        - 
           title: "Lab02 -  Inheritance, ExpandableArray"
           #url: "labs/Lab02.html"
           deadline: "2026-09-18"
@@ -73,6 +71,8 @@
       #slides: "slides/lecture06.pdf"
       recording: ~
       assignments: 
+        - 
+          title: "Quiz 1 - Exceptions"
         - 
           title: "Lab03 -  LinkedLists"
           #url: "labs/Lab03.html"
