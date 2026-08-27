@@ -53,12 +53,12 @@
           title: "Quiz 1 - Exceptions"
         - 
           title: "Lab02 -  Inheritance, ExpandableArray"
-          url: "labs/Lab02.html"
-          #deadline: "2026-02-04"
+          #url: "labs/Lab02.html"
+          deadline: "2026-09-18"
         -
           title: "HW01 - ExpandableArray & Inheritance"
-          url: "hws/HW01.html"
-          #deadline: "2026-02-04"
+          #url: "hws/HW01.html"
+          deadline: "2026-09-18"
     - 
       date: 2026-09-15
       title: Lecture 5 <br> LinkedList
@@ -76,10 +76,10 @@
         - 
           title: "Lab03 -  LinkedLists"
           url: "labs/Lab03.html"
-          deadline: "2026-02-16"
+          deadline: "2026-09-30"
         - 
           title: "HW02 -  LinkedLists"
-          deadline: "2026-02-16"
+          deadline: "2026-09-30"
           url: "hws/HW02.html"
       #readings:
       #    -
