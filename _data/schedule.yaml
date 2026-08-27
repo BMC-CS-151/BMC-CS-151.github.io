@@ -75,12 +75,12 @@
       assignments: 
         - 
           title: "Lab03 -  LinkedLists"
-          url: "labs/Lab03.html"
+          #url: "labs/Lab03.html"
           deadline: "2026-09-30"
         - 
           title: "HW02 -  LinkedLists"
           deadline: "2026-09-30"
-          url: "hws/HW02.html"
+          #url: "hws/HW02.html"
       #readings:
       #    -
       #      title: "Chapter 4"
@@ -101,10 +101,12 @@
       #    title: "Chapter 6.2-6.3"
       recording: ~
       assignments: 
+        -
+          title: "Quiz 2 - LinkedLists and Arrays"
         - 
           title: "Lab04 - Interfaces"
-          url: "labs/Lab04.html"
-          deadline: 2026-02-18
+          #url: "labs/Lab04.html"
+          deadline: 2026-09-30
     -
       date: 2026-09-29
       title: Lecture 9 <br> Implementing Stacks <br> Queues 
