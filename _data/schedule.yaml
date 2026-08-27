@@ -76,10 +76,10 @@
         - 
           title: "Lab03 -  LinkedLists"
           #url: "labs/Lab03.html"
-          deadline: "2026-09-30"
+          deadline: "2026-10-02"
         - 
           title: "HW02 -  LinkedLists"
-          deadline: "2026-09-30"
+          deadline: "2026-10-02"
           #url: "hws/HW02.html"
       #readings:
       #    -
@@ -106,7 +106,7 @@
         - 
           title: "Lab04 - Interfaces"
           #url: "labs/Lab04.html"
-          deadline: 2026-09-30
+          deadline: 2026-10-02
     -
       date: 2026-09-29
       title: Lecture 9 <br> Implementing Stacks <br> Queues 
