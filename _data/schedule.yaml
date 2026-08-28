@@ -72,7 +72,7 @@
       recording: ~
       assignments: 
         - 
-          title: :warning: "Quiz 1 - Exceptions and Inheritance"
+          title: "Quiz 1 - Exceptions and Inheritance"
         - 
           title: "Lab03 -  LinkedLists"
           #url: "labs/Lab03.html"
