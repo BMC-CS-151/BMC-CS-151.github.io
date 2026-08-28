@@ -72,7 +72,7 @@
       recording: ~
       assignments: 
         - 
-          title: "Quiz 1 - Exceptions"
+          title: "Quiz 1 - Exceptions and Inheritance"
         - 
           title: "Lab03 -  LinkedLists"
           #url: "labs/Lab03.html"
@@ -120,7 +120,7 @@
       title: Lecture 10 <br> Stack Review <br> Queues
       assignments: 
         -
-          title: "Quiz 3 - interfaces"
+          title: "Quiz 3 - Interfaces"
         - 
           title: "Lab05 - Stacks"
           #url: "labs/Lab05.html"
