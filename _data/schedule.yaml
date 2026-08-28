@@ -102,7 +102,7 @@
       recording: ~
       assignments: 
         -
-          title: "Quiz 2 - LinkedLists and Arrays"
+          title: "⚠️ Quiz 2 - LinkedLists and Arrays"
         - 
           title: "Lab04 - Interfaces"
           #url: "labs/Lab04.html"
@@ -120,7 +120,7 @@
       title: Lecture 10 <br> Stack Review <br> Queues
       assignments: 
         -
-          title: "Quiz 3 - Interfaces"
+          title: "⚠️ Quiz 3 - Interfaces"
         - 
           title: "Lab05 - Stacks"
           #url: "labs/Lab05.html"
@@ -147,7 +147,7 @@
       #slides: "slides/lecture11.pdf"
       assignments: 
         -
-          title: "Quiz 4 - Stacks and Queues"
+          title: "⚠️ Quiz 4 - Stacks and Queues"
         - 
           title: "Lab06 - Iterators & ArrayList"
           #url: "labs/Lab06.html"
