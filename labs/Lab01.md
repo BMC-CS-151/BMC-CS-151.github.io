@@ -361,7 +361,7 @@ Your program should:
     - A withdrawal that causes the custom exception
 
 with the driver code below:
-```
+```java
 public class TestWithdrawal {
   public static void main(String[] args) {
     BankAccount account = new BankAccount(500);
