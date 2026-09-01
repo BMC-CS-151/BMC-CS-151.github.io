@@ -321,8 +321,8 @@ public class TextIO {
 			
 		// Close the input stream
 		input.close();
-	} 
-    catch (FileNotFoundException e) {
+	}
+	catch (FileNotFoundException e) {
 		System.out.println("Error in opening the file:" + inFileName);
 		System.exit(1);
 	}
