@@ -359,7 +359,7 @@ Your program should:
 3. Test both 
     - A successful withdrawal
     - A withdrawal that causes the custom exception
-with the driver code below:
+1. with the driver code below:
 ```
 public class TestWithdrawal {
   public static void main(String[] args) {
