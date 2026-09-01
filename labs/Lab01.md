@@ -43,10 +43,6 @@ You can download the materials for this assignment here:
 </div>
 {% endif %}
 
-
-
-
-
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
@@ -58,7 +54,7 @@ The main goals for this lab are:
 1. Review reading in files
 1. Review Scanner class
 
-Starting in this lab, you will need to have a TA check off on all your exercises.
+Starting in this lab, you will need to have a instructor/TA check off on all your exercises.
 
 ### CS113 Students
 For students who took CS113 in previous semester, you have likely already completed a version of this lab.
@@ -326,7 +322,7 @@ public class TextIO {
 		// Close the input stream
 		input.close();
 	} 
-catch (FileNotFoundException e) {
+    catch (FileNotFoundException e) {
 		System.out.println("Error in opening the file:" + inFileName);
 		System.exit(1);
 	}
@@ -360,10 +356,28 @@ public static void main(String[] args) throws FileNotFoundException
 
 Make this change now and try it.
 
-<!--- **Exercise 5:** Program your quiz questions, make sure all are working! That is, program the methods themselves, then add appropriate driver code to call the methods you implemented with a variety of parameters to demonstrate that all the methods are working correctly.  -->
+## Custom Exceptions
 
+Now we will practice creating custom exceptions in Java. You may want to review your lecture notes before starting.
 
+**Exercise 5:** Create a custom exception called `InsufficientBalanceException` for a simple bank account program.
+Your program should:
+1. Create a class `InsufficientBalanceException` that extends `Exception`
+2. Create a `BankAccount` class with:
+    - `balance` as a `double`
+    - method `void withdraw (double amount)`: If the withdrawal amount is greater than the current balance, throw your custom exception. Otherwise, subtract the amount from the balance then print the withdrawal amount and the new balance.
+3. In `main`, test both:
+    - A successful withdrawal
+    - A withdrawal that causes the custom exception. 
 
+#### Expected behavior
+
+For example, if current balance is $500:
+```
+Withdrew $200. Remaining balance: $300
+Error: Insufficient balance. Attempted to withdraw $500. Available: $300
+```
+Note that as shown above, the exception message should include both the requested withdrawal amount and the available balance.
 ## Wrap up
 
 In todays lab we covered Exceptions and Reading Files. You will be using
