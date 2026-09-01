@@ -182,14 +182,14 @@ Create a new program with the code shown below.
 import java.util.*;
 
 public class Crash2 {
-   public static void main(String[] args) {
-	Scanner in = new Scanner(System.in);
-	while (true) {
-		System.out.print("Enter a number: ");
-		String line = in.nextLine();
-		int data = Integer.parseInt(line);
-		System.out.println("Square root of " + data + " is " + Math.sqrt(data));
-	}
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		while (true) {
+			System.out.print("Enter a number: ");
+			String line = in.nextLine();
+			int data = Integer.parseInt(line);
+			System.out.println("Square root of " + data + " is " + Math.sqrt(data));
+		}
    } // main()
 } // end of class 
 ```
