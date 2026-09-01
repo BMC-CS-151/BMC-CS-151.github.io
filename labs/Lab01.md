@@ -295,38 +295,30 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-
 public class TextIO {
+	public static void main(String[] args) {
+		String inFileName = "LiamNeeson.txt";
+		Scanner input;
+		String line;
 
+  		try {
+			// Create a new Scanner for the input file
+			input = new Scanner(new File(inFileName));
 
-   public static void main(String[] args) {
-	String inFileName = "LiamNeeson.txt";
-	Scanner input;
-	String line;
-
-
-	try {
-             // Create a new Scanner for the input file
-		input = new Scanner(new File(inFileName));
-
-
-		while (input.hasNextLine()) { // test if there is a line to read
-			// read the next line
-			line = input.nextLine();
-
-
-			// output it to Console
-			System.out.println(line);
+			while (input.hasNextLine()) { // test if there is a line to read
+				// read the next line
+				line = input.nextLine();
+				// output it to Console
+				System.out.println(line);
+			}	
+			// Close the input stream
+			input.close();
 		}
-			
-		// Close the input stream
-		input.close();
+		catch (FileNotFoundException e) {
+			System.out.println("Error in opening the file:" + inFileName);
+			System.exit(1);
+		}
 	}
-	catch (FileNotFoundException e) {
-		System.out.println("Error in opening the file:" + inFileName);
-		System.exit(1);
-	}
-   }
 }
 ```
 
