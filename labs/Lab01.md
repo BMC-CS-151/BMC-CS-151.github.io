@@ -365,6 +365,7 @@ Your program should:
 1. Create a class `InsufficientBalanceException` that extends `Exception`
 2. Create a `BankAccount` class with:
     - `balance` as a `double`
+    - appropriate constructor(s)
     - method `void withdraw (double amount)`: If the withdrawal amount is greater than the current balance, throw your custom exception. Otherwise, subtract the amount from the balance then print the withdrawal amount and the new balance.
 3. In `main`, test both:
     - A successful withdrawal
