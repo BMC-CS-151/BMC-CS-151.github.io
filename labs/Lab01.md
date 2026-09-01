@@ -60,13 +60,6 @@ The main goals for this lab are:
 
 Starting in this lab, you will need to have a TA check off on all your exercises.
 
-### Paired Programming rules
-This lab is a **paired programming assignment.** What exactly does that mean? 
-You will be working in pairs on the CS lab computers. Each pair will be working on one computer. One person will be the **driver** and the other person
- will be the **navigator**. Here is the rule: the **driver** controlls the lab computer, but the **driver** can only type what the **navigator** tells 
-them to type. For this to work well, each pair should be constantly talking 
-among themselves. After each problem, you will switch roles, the navigator will become the driver and the driver will become the navigator.
-
 ### CS113 Students
 For students who took CS113 in previous semester, you have likely already completed a version of this lab.
 However, you must still complete this lab as a refresher.
