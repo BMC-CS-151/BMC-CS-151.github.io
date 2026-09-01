@@ -357,9 +357,10 @@ Your program should:
     - appropriate constructor(s)
     - method `void withdraw (double amount)`: If the withdrawal amount is greater than the current balance, throw your custom exception. Otherwise, subtract the amount from the balance then print the withdrawal amount and the new balance.
 3. Test both 
-    - A successful withdrawal
+	- A successful withdrawal
     - A withdrawal that causes the custom exception
-1. with the driver code below:
+
+with the driver code below:
 ```
 public class TestWithdrawal {
   public static void main(String[] args) {
@@ -380,6 +381,7 @@ Withdrew $200. Remaining balance: $300
 Error: Insufficient balance. Attempted to withdraw $500. Available: $300
 ```
 Note that as shown above, the exception message should include both the requested withdrawal amount and the available balance.
+
 ## Wrap up
 
 In todays lab we covered Exceptions and Reading Files. You will be using
