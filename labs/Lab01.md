@@ -366,7 +366,7 @@ public class TestWithdrawal {
     BankAccount account = new BankAccount(500);
     try {
       account.withdraw(200);
-      account.withdraw(400);
+      account.withdraw(500);
     }
     catch (InsufficientBalanceException e) {
       System.out.println("Error: " + e.getMessage());
@@ -375,8 +375,6 @@ public class TestWithdrawal {
 }
 ```
 #### Expected behavior
-
-For example, if current balance is $500:
 ```
 Withdrew $200. Remaining balance: $300
 Error: Insufficient balance. Attempted to withdraw $500. Available: $300
