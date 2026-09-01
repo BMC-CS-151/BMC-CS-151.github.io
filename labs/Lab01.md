@@ -356,11 +356,10 @@ Your program should:
     - `balance` as a `double`
     - appropriate constructor(s)
     - method `void withdraw (double amount)`: If the withdrawal amount is greater than the current balance, throw your custom exception. Otherwise, subtract the amount from the balance then print the withdrawal amount and the new balance.
-3. Test both with the driver code below:
+3. Test both 
     - A successful withdrawal
     - A withdrawal that causes the custom exception
-
-
+with the driver code below:
 ```
 public class TestWithdrawal {
   public static void main(String[] args) {
