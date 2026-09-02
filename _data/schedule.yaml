@@ -15,9 +15,9 @@
           url: "labs/Lab00.html"
     - 
       date: 2026-09-03
-      title: Lecture 2 <br> OOP
+      title: Lecture 2 <br> Java Reivew II 
       #Inheritence <br> OOP 
-      #slides: "slides/lecture02.pdf"
+      slides: "slides/lecture02.pdf"
       recording: ~
       assignments: 
         - 
