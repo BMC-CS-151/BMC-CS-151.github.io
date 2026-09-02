@@ -20,18 +20,18 @@
     office_hours: Monday 5-7pm
     location: TBD
 -
-    name: Huda Imran
-    pic: huda.jpeg
-    email: himran@brynmawr.edu
-    extra_title: Teaching Assistant
-    office_hours: Friday 5-7pm
-    location: TBD
--
     name: Maimoona Irfan
     pic: tbd.jpeg
     email: mirfan2@brynmawr.edu
     extra_title: Teaching Assistant
     office_hours: Tuesday 5-7pm
+    location: TBD
+-
+    name: Huda Imran
+    pic: huda.jpeg
+    email: himran@brynmawr.edu
+    extra_title: Teaching Assistant
+    office_hours: Friday 5-7pm
     location: TBD
 -
     name: Ellen Brutus
