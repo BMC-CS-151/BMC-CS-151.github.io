@@ -43,10 +43,6 @@ You can download the materials for this assignment here:
 </div>
 {% endif %}
 
-
-
-
-
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
@@ -58,14 +54,7 @@ The main goals for this lab are:
 1. Review reading in files
 1. Review Scanner class
 
-Starting in this lab, you will need to have a TA check off on all your exercises.
-
-### Paired Programming rules
-This lab is a **paired programming assignment.** What exactly does that mean? 
-You will be working in pairs on the CS lab computers. Each pair will be working on one computer. One person will be the **driver** and the other person
- will be the **navigator**. Here is the rule: the **driver** controlls the lab computer, but the **driver** can only type what the **navigator** tells 
-them to type. For this to work well, each pair should be constantly talking 
-among themselves. After each problem, you will switch roles, the navigator will become the driver and the driver will become the navigator.
+Starting in this lab, you will need to have a instructor/TA check off on all your exercises.
 
 ### CS113 Students
 For students who took CS113 in previous semester, you have likely already completed a version of this lab.
@@ -86,7 +75,6 @@ The best way to understand runtime errors is to write code that crashes!
 
 ```java
 public class Crash1 {
-
   static int[] a = { 10, 20, 30, 40, 50 };
 
   public static void main(String[] args) {
@@ -193,15 +181,15 @@ Create a new program with the code shown below.
 import java.util.*;
 
 public class Crash2 {
-   public static void main(String[] args) {
-	Scanner in = new Scanner(System.in);
-	while (true) {
-		System.out.print("Enter a number: ");
-		String line = in.nextLine();
-		int data = Integer.parseInt(line);
-		System.out.println("Square root of " + data + " is " + Math.sqrt(data));
-	}
-   } // main()
+  public static void main(String[] args) {
+    Scanner in = new Scanner(System.in);
+    while (true) {
+      System.out.print("Enter a number: ");
+      String line = in.nextLine();
+      int data = Integer.parseInt(line);
+      System.out.println("Square root of " + data + " is " + Math.sqrt(data));
+    }
+  } // main()
 } // end of class 
 ```
 
@@ -306,38 +294,28 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-
 public class TextIO {
-
-
-   public static void main(String[] args) {
+  public static void main(String[] args) {
 	String inFileName = "LiamNeeson.txt";
 	Scanner input;
 	String line;
-
-
 	try {
-             // Create a new Scanner for the input file
-		input = new Scanner(new File(inFileName));
-
-
-		while (input.hasNextLine()) { // test if there is a line to read
-			// read the next line
-			line = input.nextLine();
-
-
-			// output it to Console
-			System.out.println(line);
-		}
-			
-		// Close the input stream
-		input.close();
-	} 
-catch (FileNotFoundException e) {
-		System.out.println("Error in opening the file:" + inFileName);
-		System.exit(1);
+	  // Create a new Scanner for the input file
+	  input = new Scanner(new File(inFileName));
+	  while (input.hasNextLine()) { // test if there is a line to read
+		// read the next line
+		line = input.nextLine();
+		// output it to Console
+		System.out.println(line);
+	  }	
+	  // Close the input stream
+	  input.close();
 	}
-   }
+	catch (FileNotFoundException e) {
+	  System.out.println("Error in opening the file:" + inFileName);
+	  System.exit(1);
+	}
+  }
 }
 ```
 
@@ -367,9 +345,42 @@ public static void main(String[] args) throws FileNotFoundException
 
 Make this change now and try it.
 
-<!--- **Exercise 5:** Program your quiz questions, make sure all are working! That is, program the methods themselves, then add appropriate driver code to call the methods you implemented with a variety of parameters to demonstrate that all the methods are working correctly.  -->
+## Custom Exceptions
 
+Now we will practice creating custom exceptions in Java. You may want to review your lecture notes before starting.
 
+**Exercise 5:** Create a custom exception called `InsufficientBalanceException` for a simple bank account program.
+Your program should:
+1. Create a class `InsufficientBalanceException` that extends `Exception`
+2. Create a `BankAccount` class with:
+    - `balance` as a `double`
+    - appropriate constructor(s)
+    - method `void withdraw (double amount)`: If the withdrawal amount is greater than the current balance, throw your custom exception. Otherwise, subtract the amount from the balance then print the withdrawal amount and the new balance.
+3. Test both 
+	- A successful withdrawal
+    - A withdrawal that causes the custom exception
+
+with the driver code below:
+```java
+public class TestWithdrawal {
+  public static void main(String[] args) {
+    BankAccount account = new BankAccount(500);
+    try {
+      account.withdraw(200);
+      account.withdraw(500);
+    }
+    catch (InsufficientBalanceException e) {
+      System.out.println("Error: " + e.getMessage());
+    }
+  }
+}
+```
+#### Expected behavior
+```
+Withdrew $200. Remaining balance: $300
+Error: Insufficient balance. Attempted to withdraw $500. Available: $300
+```
+Note that as shown above, the exception message should include both the requested withdrawal amount and the available balance.
 
 ## Wrap up
 
