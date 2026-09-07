@@ -34,7 +34,7 @@
       #    title: "Chapter 2, Chapter 3.1, Chapter 7.2"
     - 
       date: 2026-09-08
-      title: Lecture 3 <br> OOP II <br> Arrays <br> Generics
+      title: Lecture 3 <br> Runtime Analysis <br> Arrays 
       #slides: "slides/lecture03.pdf"
       recording: ~
       #readings:
@@ -42,7 +42,7 @@
       #    title: "Chapter 2.5"
     - 
       date: 2026-09-10
-      title: Lecture 4 <br> Array Review <br> Runtime Complexity <br> Nested Classes 
+      title: Lecture 4 <br> Arrays II <br> Generics <br> Nested Classes 
       #readings:
       #  -
       #    title: "Chapter 3"
