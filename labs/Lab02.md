@@ -73,7 +73,7 @@ among themselves. After each problem, you will switch roles, the navigator will 
 ## Exercise 1: Inheritance
 
 You will design all the necessary classes in order to make the following driver program
-work properly and produce the given expected output (we have broken down the step below). 
+work properly and produce the given expected output (we have broken down the step below). You are not allowed to modify the driver program in anyway.
 
 
 ``` java
