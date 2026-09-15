@@ -77,6 +77,7 @@ Getting Started:
 to see the checkstyle errors.
 4. Modify `LookupZip.java` until the above command runs without any errors.
 
+<!--
 ## Exercise 2 - PostfixEvaluator.java
 
 Download `PostfixEvaluator.java` from 
@@ -145,8 +146,9 @@ Again, make sure that `TestPostfixStringEvaluator.java` passes the checkstyle.
 There will be `7` checkstyle errors in the file we are providing you.
 
 Now add 4 more tests, make them a bit complicated.
+-->
 
-## Excercise 3 - DoubleStack
+## Excercise 2 - DoubleStack
 
 Now we are going to implement 2 stacks using 1 array.
 
@@ -176,25 +178,25 @@ If the runtime of any of the methods besides for `printStack` is not
 Before implementing the tests, make sure to create a test fille called `TestDoubleStack.java`
 that uses JUnit tests.
 
-#### 3.1 void push(int stackId, E e): 
+#### 2.1 void push(int stackId, E e): 
 push e onto stack stackId (1 or 2). In other words, it
 will push onto stack 1 if stackId==1 and onto stack 2 if stackId==2. Throw an
 `IllegalStateException` if stack is full. Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
-#### 3.2 E pop(int stackId): 
+#### 2.2 E pop(int stackId): 
 pop from stackId, return null if empty. Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
-#### 3.3 E top(int stackId): 
+#### 2.3 E top(int stackId): 
 top element from stackId, return null if empty. Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
 
-#### 3.4  int size(int stackId): 
+#### 2.4  int size(int stackId): 
 return size of stack stackId. Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
-#### 3.5  boolean isEmpty(int stackId) 
+#### 2.5  boolean isEmpty(int stackId) 
 Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
-#### 3.6  String printStack(int stackId)
+#### 2.6  String printStack(int stackId)
 Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
 ## Wrap up
