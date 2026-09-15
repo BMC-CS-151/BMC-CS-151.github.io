@@ -75,7 +75,7 @@
           title: "⚠️ Quiz 1 - Exceptions and Inheritance"
         - 
           title: "Lab03 -  LinkedLists"
-          #url: "labs/Lab03.html"
+          url: "labs/Lab03.html"
           deadline: "2026-09-22"
         - 
           title: "HW02 -  LinkedLists"
