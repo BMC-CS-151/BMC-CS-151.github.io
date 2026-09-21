@@ -150,7 +150,7 @@ java -ea Lab03Tests
 
 This will ensure that all tests actually run. We are using `assert`
 to test your code.
-There are a total of 56 `assert` statements. Maybe of
+There are a total of 56 `assert` statements. Many of
 these `assert` statements are in loops so we 
 have a lot more than 56 tests!
 
