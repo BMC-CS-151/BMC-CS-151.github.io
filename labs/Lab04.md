@@ -63,7 +63,7 @@ If you do not complete the lab during the lab session, you
 must have a TA check off all your exercises during office hours.
 You must get this lab checked off by the due date.
 
-> Notes: in this lab you are not allowed to include any `import` statements unless specified.
+> Notes: in this lab you are not allowed to include any `import` statements unless specified (Exercise 4).
 
 ### Menu
 
