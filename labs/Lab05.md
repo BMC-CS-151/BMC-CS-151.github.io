@@ -128,8 +128,6 @@ Throw an `IllegalArgumentException` if the stackId is not 1 or 2.
 #### 2.6  String printStack(int stackId)
 Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
-Now add 4 more tests, make them a bit complicated.
-
 ## Exercise 3 - PostfixEvaluator.java (Extra Credit)
 
 Download `PostfixEvaluator.java` from 
@@ -196,6 +194,8 @@ You can download `TestPostfixStringEvaluator.java` from
 
 Again, make sure that `TestPostfixStringEvaluator.java` passes the checkstyle.
 There will be `7` checkstyle errors in the file we are providing you.
+
+Now add 4 more tests, make them a bit complicated.
 
 ## Wrap up
 
