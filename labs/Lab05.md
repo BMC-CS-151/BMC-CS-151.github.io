@@ -77,7 +77,76 @@ Getting Started:
 to see the checkstyle errors.
 4. Modify `LookupZip.java` until the above command runs without any errors.
 
-## Excercise 2 - DoubleStack
+## Exercise 2 - PostfixEvaluator.java
+
+Download `PostfixEvaluator.java` from 
+`wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab05/PostfixEvaluator.java`
+This is an implementation of the postfix evaluator we discussed in class with the built-in Java `Stack`.
+Look through the code to understand how it work. Run `PostfixEvaluator.java` to interact with it a bit.
+
+### Exercise 2.1 - Testing PostfixEvaluator
+Run the tests we provide in `TestPostFixEvaluator`.
+
+You can download `TestPostfixEvaluator.java` from 
+`wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab05/TestPostfixEvaluator.java`
+
+**Make sure the checkstyle passes for `TestPostfixEvaluator.java`**.
+When you run the checkstyle for `TestPostfixEvaluator` you will see `7` errors. Fix all them
+and then continue.
+
+Once the test file passes the checkstyle, you will run the tests. To run the tests,
+you will need to make sure you download two jar files:
+1. junit-4.13.2.jar - `wget https://repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar`
+1. hamcrest-core-1.13.jar - `wget https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar`
+
+To compile and run the tests, run the following command:
+
+```bash
+javac -cp .:junit-4.13.2.jar  TestPostfixEvaluator.java
+java -cp "./junit-4.13.2.jar:./hamcrest-core-1.3.jar:./" org.junit.runner.JUnitCore TestPostfixEvaluator
+```
+
+You can alternatively use the `run_junit.sh` script I created in class: https://github.com/BMC-CS-151/class-examples-s24/blob/main/lec07/Stacks/run_junit.sh
+
+Test it using TestPostfixEvaluator.java. Make sure you understand how it works.
+
+Now, add 4 more tests to `TestPostfixEvaluator`. The tests should each combine multiple operators.
+
+### Exercise 2.2 - Modifying PostfixEvaluator
+
+Copy `PostFixEvaluator.java` to a new file called `PostfixStringEvaluator.java`.
+Modify `PostfixStringEvaluator.java` to convert a postfix expression to a parenthesized infix 
+expression and display it to the user. Modifications to `PostfixStringEvaluator.java` should not be
+extensive. The only difference is that when encountering an operator, instead of pushing the
+result of the arithmetic operation involving this operator and the top two operands onto the
+stack, i.e. a number, you will consruct the string representing that arithmetic operation and
+push the string onto the stack instead. Below are some examples:
+
+```
+Sample Input 1
+5 6 + 9 *
+Output
+( ( 5 + 6 ) * 9 )
+Sample Input 2
+8 9 10 + *
+Output
+( 8 * ( 9 + 10 ) )
+```
+
+Make sure `PostFixStringEvaluator.java` complies with the style guide.
+
+### Exercise 2.3 - Testing PostfixStringEvaluator
+We provide three tests in `TestPostfixStringEvaluator`. 
+
+You can download `TestPostfixStringEvaluator.java` from 
+`wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab05/TestPostfixStringEvaluator.java`
+
+Again, make sure that `TestPostfixStringEvaluator.java` passes the checkstyle.
+There will be `7` checkstyle errors in the file we are providing you.
+
+Now add 4 more tests, make them a bit complicated.
+
+## Excercise 3 - DoubleStack
 
 Now we are going to implement 2 stacks using 1 array.
 
@@ -107,95 +176,26 @@ If the runtime of any of the methods besides for `printStack` is not
 Before implementing the tests, make sure to create a test fille called `TestDoubleStack.java`
 that uses JUnit tests.
 
-#### 2.1 void push(int stackId, E e): 
+#### 3.1 void push(int stackId, E e): 
 push e onto stack stackId (1 or 2). In other words, it
 will push onto stack 1 if stackId==1 and onto stack 2 if stackId==2. Throw an
 `IllegalStateException` if stack is full. Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
-#### 2.2 E pop(int stackId): 
+#### 3.2 E pop(int stackId): 
 pop from stackId, return null if empty. Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
-#### 2.3 E top(int stackId): 
+#### 3.3 E top(int stackId): 
 top element from stackId, return null if empty. Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
 
-#### 2.4  int size(int stackId): 
+#### 3.4  int size(int stackId): 
 return size of stack stackId. Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
-#### 2.5  boolean isEmpty(int stackId) 
+#### 3.5  boolean isEmpty(int stackId) 
 Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
 
-#### 2.6  String printStack(int stackId)
+#### 3.6  String printStack(int stackId)
 Throw an `IllegalArgumentException` if the stackId is not 1 or 2. 
-
-## Exercise 3 - PostfixEvaluator.java (Extra Credit)
-
-Download `PostfixEvaluator.java` from 
-`wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab05/PostfixEvaluator.java`
-This is an implementation of the postfix evaluator we discussed in class with the built-in Java `Stack`.
-Look through the code to understand how it work. Run `PostfixEvaluator.java` to interact with it a bit.
-
-### Exercise 3.1 - Testing PostfixEvaluator
-Run the tests we provide in `TestPostFixEvaluator`.
-
-You can download `TestPostfixEvaluator.java` from 
-`wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab05/TestPostfixEvaluator.java`
-
-**Make sure the checkstyle passes for `TestPostfixEvaluator.java`**.
-When you run the checkstyle for `TestPostfixEvaluator` you will see `7` errors. Fix all them
-and then continue.
-
-Once the test file passes the checkstyle, you will run the tests. To run the tests,
-you will need to make sure you download two jar files:
-1. junit-4.13.2.jar - `wget https://repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar`
-1. hamcrest-core-1.13.jar - `wget https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar`
-
-To compile and run the tests, run the following command:
-
-```bash
-javac -cp .:junit-4.13.2.jar  TestPostfixEvaluator.java
-java -cp "./junit-4.13.2.jar:./hamcrest-core-1.3.jar:./" org.junit.runner.JUnitCore TestPostfixEvaluator
-```
-
-You can alternatively use the `run_junit.sh` script I created in class: https://github.com/BMC-CS-151/class-examples-s24/blob/main/lec07/Stacks/run_junit.sh
-
-Test it using TestPostfixEvaluator.java. Make sure you understand how it works.
-
-Now, add 4 more tests to `TestPostfixEvaluator`. The tests should each combine multiple operators.
-
-### Exercise 3.2 - Modifying PostfixEvaluator
-
-Copy `PostFixEvaluator.java` to a new file called `PostfixStringEvaluator.java`.
-Modify `PostfixStringEvaluator.java` to convert a postfix expression to a parenthesized infix 
-expression and display it to the user. Modifications to `PostfixStringEvaluator.java` should not be
-extensive. The only difference is that when encountering an operator, instead of pushing the
-result of the arithmetic operation involving this operator and the top two operands onto the
-stack, i.e. a number, you will consruct the string representing that arithmetic operation and
-push the string onto the stack instead. Below are some examples:
-
-```
-Sample Input 1
-5 6 + 9 *
-Output
-( ( 5 + 6 ) * 9 )
-Sample Input 2
-8 9 10 + *
-Output
-( 8 * ( 9 + 10 ) )
-```
-
-Make sure `PostFixStringEvaluator.java` complies with the style guide.
-
-### Exercise 3.3 - Testing PostfixStringEvaluator
-We provide three tests in `TestPostfixStringEvaluator`. 
-
-You can download `TestPostfixStringEvaluator.java` from 
-`wget https://raw.githubusercontent.com/BMC-CS-151/BMC-CS-151.github.io/main/labs/lab05/TestPostfixStringEvaluator.java`
-
-Again, make sure that `TestPostfixStringEvaluator.java` passes the checkstyle.
-There will be `7` checkstyle errors in the file we are providing you.
-
-Now add 4 more tests, make them a bit complicated.
 
 ## Wrap up
 
