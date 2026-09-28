@@ -130,7 +130,7 @@ Output
 Sample Input 2
 8 9 10 + *
 Output
-( 8 * ( 9 + 10 ) )
+( ( 9 + 10 ) * 8 )
 ```
 
 Make sure `PostFixStringEvaluator.java` complies with the style guide.
