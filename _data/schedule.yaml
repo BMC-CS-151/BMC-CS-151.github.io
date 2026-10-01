@@ -123,7 +123,7 @@
           title: "⚠️ Quiz 3 - Interfaces"
         - 
           title: "Lab05 - Stacks"
-          #url: "labs/Lab05.html"
+          url: "labs/Lab05.html"
           deadline: 2026-10-06
         -
           deadline: 2026-10-09
