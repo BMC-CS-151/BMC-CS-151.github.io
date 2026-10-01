@@ -73,7 +73,7 @@ Getting Started:
 1. Download the xml checkstyle from the course GitHub repository: ```wget https://raw.githubusercontent.com/BMC-CS-151/class-examples-f23/main/cs151_checks.xml```
 2. Download the checkstyle-8.16 jar file from here: https://github.com/checkstyle/checkstyle/releases/tag/checkstyle-8.16 
 3. Run 
-	```java -jar checkstyle-8.16-all.jar –c  cs151_checks.xml LookupZip.java```
+	```java -jar checkstyle-8.16-all.jar -c  cs151_checks.xml LookupZip.java```
 to see the checkstyle errors.
 4. Modify `LookupZip.java` until the above command runs without any errors.
 
