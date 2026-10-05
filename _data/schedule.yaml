@@ -136,14 +136,14 @@
       #recording: ~
     - 
       date: 2026-10-06
-      title: Lecture 10 <br> Implementing Queues <br> Dequeues <br> Iterators
-      #slides: "slides/lecture10.pdf"
+      title: Lecture 11 <br> Queue Review <br> Binary Search
+      slides: "slides/lecture11.pdf"
       #readings:
       #  -
       #    title: "Chapter 8"
     - 
       date: 2026-10-08
-      title: Lecture 11 <br> Binary Search  #Trees
+      title: Lecture 12 <br> Trees 
       #slides: "slides/lecture11.pdf"
       assignments: 
         -
