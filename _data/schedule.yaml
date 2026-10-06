@@ -215,11 +215,11 @@
       assignments: 
         - 
           title: "Lab08 - Array based Binary Trees & Heaps"
-          deadline: 2026-11-11
+          deadline: 2026-11-13
           #url: "labs/Lab08.html"
         - 
           title: "HW06 - Heaps"
-          deadline: 2026-11-11
+          deadline: 2026-11-13
           #url: "hws/HW06.html"
     - 
       date: 2026-11-10
