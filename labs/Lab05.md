@@ -106,7 +106,7 @@ javac -cp .:junit-4.13.2.jar  TestPostfixEvaluator.java
 java -cp "./junit-4.13.2.jar:./hamcrest-core-1.3.jar:./" org.junit.runner.JUnitCore TestPostfixEvaluator
 ```
 
-You can alternatively use the `run_junit.sh` script I created in class: https://github.com/BMC-CS-151/class-examples-s24/blob/main/lec07/Stacks/run_junit.sh
+You can alternatively use the `run_junit.sh` script I created in class: https://github.com/BMC-CS-151/class-examples-f26/blob/main/lec08/Stacks/run_junit.sh
 
 Test it using TestPostfixEvaluator.java. Make sure you understand how it works.
 
