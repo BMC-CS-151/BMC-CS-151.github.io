@@ -194,12 +194,12 @@
       assignments:
           -
             title: "Lab07 - Binary Trees"
-            url: "labs/Lab07.html"
             deadline: 2026-11-06
+            #url: "labs/Lab07.html"
           -
             title: "HW05 - Binary Trees"
             deadline: 2026-11-06
-            url: "hws/HW05.html"
+            #url: "hws/HW05.html"
     - 
       date: 2026-11-03
       title: Lecture 16 <br> Priority Queues
@@ -256,11 +256,11 @@
         - 
           title: "Lab 10 - AVL Trees"
           deadline: 2026-12-04
-          url: "labs/Lab10.html"
+          #url: "labs/Lab10.html"
         -
           title: "HW08 - AVL Trees"
           deadline: 2026-12-04
-          url: "hws/HW08.html"
+          #url: "hws/HW08.html"
     -
       date: 2026-11-24
       title: Lecture 22 <br> AVL Trees II
