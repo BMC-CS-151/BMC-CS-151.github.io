@@ -159,9 +159,9 @@ grow towards each other. Unlike `ExpandableArray` you can have empty spaces in y
 The top indexes are denoted by `top1` and `top2` for stack 1 and
 stack 2, respectively. Thus, the `DoubleStack` class should have three instance variables: 
 
-1. E[] theArray, 
-1. int top1,
-1. int top2
+1. `E[] theArray` 
+1. `int top1`
+1. `int top2`
 
 Make sure `theArray` locations 0 to top1 contain elements in stack 1 and theArray locations
 theArray.length-1 downto top2 stores the elements in stack 2. You can assume a max stack size of 100 for each stack.
