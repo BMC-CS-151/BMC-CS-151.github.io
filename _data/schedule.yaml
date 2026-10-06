@@ -173,6 +173,9 @@
     -
       date: 2026-10-22
       title: Midterm 
+      assignments:
+        -
+          title: "⚠️ Midterm: programming portion"
 
   name: "Part I"
 -
