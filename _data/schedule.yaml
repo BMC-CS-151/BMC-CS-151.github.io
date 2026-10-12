@@ -194,7 +194,7 @@
       assignments:
           -
             title: "Lab07 - Binary Trees"
-            deadline: 2026-11-06
+            deadline: 2026-11-03
             #url: "labs/Lab07.html"
           -
             title: "HW05 - Binary Trees"
@@ -217,7 +217,7 @@
           title: "⚠️ Quiz 5 - Binary trees"
         - 
           title: "Lab08 - Array based Binary Trees & Heaps"
-          deadline: 2026-11-13
+          deadline: 2026-11-10
           #url: "labs/Lab08.html"
         - 
           title: "HW06 - Heaps"
@@ -238,7 +238,7 @@
           title: "⚠️ Quiz 6 - Heaps"
         -
             title: "Lab09 - HashMaps"
-            deadline: 2026-11-20
+            deadline: 2026-11-17
             #url: "labs/Lab09.html"
         -
             deadline: 2026-11-20
@@ -261,7 +261,7 @@
           title: "⚠️ Quiz 7 - Hash Tables"
         - 
           title: "Lab 10 - AVL Trees"
-          deadline: 2026-12-04
+          deadline: 2026-12-01
           #url: "labs/Lab10.html"
         -
           title: "HW08 - AVL Trees"
