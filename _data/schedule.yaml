@@ -214,6 +214,8 @@
       readings: ~
       assignments: 
         - 
+          title: "⚠️ Quiz 5 - Binary trees"
+        - 
           title: "Lab08 - Array based Binary Trees & Heaps"
           deadline: 2026-11-13
           #url: "labs/Lab08.html"
@@ -232,6 +234,8 @@
       title: Lecture 19 <br> Merge Sort 
       #slides: "slides/lecture19.pdf"
       assignments: 
+        - 
+          title: "⚠️ Quiz 6 - Heaps"
         -
             title: "Lab09 - HashMaps"
             deadline: 2026-11-20
@@ -253,6 +257,8 @@
         -
           title: "Chapter 14.1 - Chapter 14.3"
       assignments: 
+        - 
+          title: "⚠️ Quiz 7 - Hash Tables"
         - 
           title: "Lab 10 - AVL Trees"
           deadline: 2026-12-04
