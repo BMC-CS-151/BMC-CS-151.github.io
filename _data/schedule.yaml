@@ -285,6 +285,8 @@
       recording: ~
       assignments:
           - 
+          title: "⚠️ Quiz 8 - AVL Trees"
+          - 
             title: "Lab 11 - Graphs"
             url: "labs/Lab11.html"
             deadline: 2026-05-01
