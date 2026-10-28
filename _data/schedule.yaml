@@ -182,14 +182,14 @@
   lectures:
     - 
       date: 2026-10-27
-      title: Lecture 14 <br> Tree Review <br> Heaps
+      title: Lecture 14 <br> BSTs <br> Tree Traversal
       slides: "slides/lecture14.pdf"
       recording: ~
       assignments: ~
     -
       date: 2026-10-29
-      title: Lecture 15 <br> Heaps II
-      #slides: "slides/lecture15.pdf"
+      title: Lecture 15 <br> Heaps
+      slides: "slides/lecture15.pdf"
       #recording: ~
       assignments:
           -
