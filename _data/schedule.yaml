@@ -218,7 +218,7 @@
         - 
           title: "Lab08 - Array based Binary Trees & Heaps"
           deadline: 2026-11-10
-          #url: "labs/Lab08.html"
+          url: "labs/Lab08.html"
         - 
           title: "HW06 - Heaps"
           deadline: 2026-11-13
@@ -288,7 +288,7 @@
             title: "⚠️ Quiz 8 - Sorting and AVL Trees"
           - 
             title: "Lab 11 - Graphs"
-            url: "labs/Lab11.html"
+            # url: "labs/Lab11.html"
             deadline: 2026-05-01
           -
             title: "No Homework"
