@@ -246,12 +246,12 @@
             url: "hws/HW07.html"
     - 
       date: 2026-11-17
-      title: Lecture 20 <br> Quick Sort <br> Merge Sort 
+      title: Lecture 20 <br> HashMaps III <br> ChainHashMap
       #slides: "slides/lecture20.pdf"
       recording: ~
     - 
       date: 2026-11-19
-      title: Lecture 21  <br> AVL Trees
+      title: Lecture 21  <br> QuickSort <br> Merge Sort
       #slides: "slides/lecture21.pdf"
       readings:
         -
@@ -269,7 +269,7 @@
           #url: "hws/HW08.html"
     -
       date: 2026-11-24
-      title: Lecture 22 <br> AVL Trees II
+      title: Lecture 22 <br> AVL Trees
       #slides: "slides/lecture22.pdf"
     -
       date: 2026-11-26
@@ -277,7 +277,7 @@
       #slides: "slides/lecture22.pdf"
     -
       date: 2026-12-01
-      title: Lecture 23 <br> Union Find
+      title: Lecture 23 <br> AVL Trees II
     -
       date: 2026-12-03
       title: Lecture 24 <br> Graphs
@@ -294,7 +294,7 @@
             title: "No Homework"
     -
       date: 2026-12-08
-      title: Final Review
+      title: Lecture 25 <br> Union Find
     - 
       date: 2026-12-10
       title: Final Review
