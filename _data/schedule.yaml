@@ -269,7 +269,7 @@
           #url: "hws/HW08.html"
     -
       date: 2026-11-24
-      title: Lecture 22 <br> AVL Trees
+      title: Lecture 22 <br> AVL Trees II
       #slides: "slides/lecture22.pdf"
     -
       date: 2026-11-26
@@ -277,10 +277,10 @@
       #slides: "slides/lecture22.pdf"
     -
       date: 2026-12-01
-      title: Lecture 23 <br> AVL Trees II
+      title: Lecture 23 <br> Sorting II
     -
       date: 2026-12-03
-      title: Lecture 24 <br> Graphs
+      title: Lecture 24 <br> Sorting III
       readings: ~
       recording: ~
       assignments:
@@ -294,7 +294,7 @@
             title: "No Homework"
     -
       date: 2026-12-08
-      title: Lecture 25 <br> Union Find
+      title: Lecture 25 <br> Graphs
     - 
       date: 2026-12-10
       title: Final Review
