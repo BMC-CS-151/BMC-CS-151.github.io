@@ -280,7 +280,7 @@
       title: Lecture 23 <br> Sorting III
     -
       date: 2026-12-03
-      title: Lecture 24 <br> Union Find 
+      title: Lecture 24 <br> Graphs
       readings: ~
       recording: ~
       assignments:
@@ -294,7 +294,7 @@
             title: "No Homework"
     -
       date: 2026-12-08
-      title: Lecture 25 <br> Graphs
+      title: Lecture 25 <br> Union Find
     - 
       date: 2026-12-10
       title: Final Review
