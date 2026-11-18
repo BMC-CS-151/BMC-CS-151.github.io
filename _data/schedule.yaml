@@ -241,7 +241,7 @@
             deadline: 2026-11-17
             url: "labs/Lab09.html"
         -
-            deadline: 2026-11-20
+            deadline: 2026-11-24
             title: "HW07 - Hash Tables"
             url: "hws/HW07.html"
     - 
@@ -251,8 +251,8 @@
       recording: ~
     - 
       date: 2026-11-19
-      title: Lecture 21  <br> QuickSort <br> Merge Sort
-      #slides: "slides/lecture21.pdf"
+      title: Lecture 21  <br> Sorting I <br> AVL Trees I
+      slides: "slides/lecture21.pdf"
       readings:
         -
           title: "Chapter 14.1 - Chapter 14.3"
